@@ -1,0 +1,10 @@
+services:
+    _defaults:
+        public: false
+
+    roomata.crop:
+        public: true
+        class: Roomata\CropBundle\Service\CropImage
+        arguments:
+          $config:
+

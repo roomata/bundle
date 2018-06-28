@@ -1,0 +1,35 @@
+{
+  "name": "roomata/bundle",
+  "type": "symfony-bundle",
+  "require": {
+    "php": "^7.1.3",
+    "ext-imagick": "*",
+    "calcinai/php-imagick": "@dev",
+    "symfony/console": "^4.0",
+    "symfony/flex": "^1.0",
+    "symfony/framework-bundle": "^4.0",
+    "symfony/lts": "^4@dev",
+    "symfony/yaml": "^4.0"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Anton Abramov",
+      "email": "roomta@gamil.com",
+      "homepage": "https://github.com/roomata",
+      "role": "Developer"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require-dev": {
+    "symfony/dotenv": "^4.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Roomata\\CropBundle\\": ""
+    }
+  },
+  "conflict": {
+    "symfony/symfony": "*"
+  }
+}
